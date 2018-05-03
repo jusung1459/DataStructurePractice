@@ -150,32 +150,140 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/DataStructurePractice.dir/build.make CMakeFiles/DataStructurePractice.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/array.o: src/array.cpp.o
+src/array/onedarray.o: src/array/onedarray.cpp.o
 
-.PHONY : src/array.o
+.PHONY : src/array/onedarray.o
 
 # target to build an object file
-src/array.cpp.o:
-	$(MAKE) -f CMakeFiles/DataStructurePractice.dir/build.make CMakeFiles/DataStructurePractice.dir/src/array.cpp.o
-.PHONY : src/array.cpp.o
+src/array/onedarray.cpp.o:
+	$(MAKE) -f CMakeFiles/DataStructurePractice.dir/build.make CMakeFiles/DataStructurePractice.dir/src/array/onedarray.cpp.o
+.PHONY : src/array/onedarray.cpp.o
 
-src/array.i: src/array.cpp.i
+src/array/onedarray.i: src/array/onedarray.cpp.i
 
-.PHONY : src/array.i
+.PHONY : src/array/onedarray.i
 
 # target to preprocess a source file
-src/array.cpp.i:
-	$(MAKE) -f CMakeFiles/DataStructurePractice.dir/build.make CMakeFiles/DataStructurePractice.dir/src/array.cpp.i
-.PHONY : src/array.cpp.i
+src/array/onedarray.cpp.i:
+	$(MAKE) -f CMakeFiles/DataStructurePractice.dir/build.make CMakeFiles/DataStructurePractice.dir/src/array/onedarray.cpp.i
+.PHONY : src/array/onedarray.cpp.i
 
-src/array.s: src/array.cpp.s
+src/array/onedarray.s: src/array/onedarray.cpp.s
 
-.PHONY : src/array.s
+.PHONY : src/array/onedarray.s
 
 # target to generate assembly for a file
-src/array.cpp.s:
-	$(MAKE) -f CMakeFiles/DataStructurePractice.dir/build.make CMakeFiles/DataStructurePractice.dir/src/array.cpp.s
-.PHONY : src/array.cpp.s
+src/array/onedarray.cpp.s:
+	$(MAKE) -f CMakeFiles/DataStructurePractice.dir/build.make CMakeFiles/DataStructurePractice.dir/src/array/onedarray.cpp.s
+.PHONY : src/array/onedarray.cpp.s
+
+src/hashtables/hashproblems.o: src/hashtables/hashproblems.cpp.o
+
+.PHONY : src/hashtables/hashproblems.o
+
+# target to build an object file
+src/hashtables/hashproblems.cpp.o:
+	$(MAKE) -f CMakeFiles/DataStructurePractice.dir/build.make CMakeFiles/DataStructurePractice.dir/src/hashtables/hashproblems.cpp.o
+.PHONY : src/hashtables/hashproblems.cpp.o
+
+src/hashtables/hashproblems.i: src/hashtables/hashproblems.cpp.i
+
+.PHONY : src/hashtables/hashproblems.i
+
+# target to preprocess a source file
+src/hashtables/hashproblems.cpp.i:
+	$(MAKE) -f CMakeFiles/DataStructurePractice.dir/build.make CMakeFiles/DataStructurePractice.dir/src/hashtables/hashproblems.cpp.i
+.PHONY : src/hashtables/hashproblems.cpp.i
+
+src/hashtables/hashproblems.s: src/hashtables/hashproblems.cpp.s
+
+.PHONY : src/hashtables/hashproblems.s
+
+# target to generate assembly for a file
+src/hashtables/hashproblems.cpp.s:
+	$(MAKE) -f CMakeFiles/DataStructurePractice.dir/build.make CMakeFiles/DataStructurePractice.dir/src/hashtables/hashproblems.cpp.s
+.PHONY : src/hashtables/hashproblems.cpp.s
+
+src/linkedlist/LL.o: src/linkedlist/LL.cpp.o
+
+.PHONY : src/linkedlist/LL.o
+
+# target to build an object file
+src/linkedlist/LL.cpp.o:
+	$(MAKE) -f CMakeFiles/DataStructurePractice.dir/build.make CMakeFiles/DataStructurePractice.dir/src/linkedlist/LL.cpp.o
+.PHONY : src/linkedlist/LL.cpp.o
+
+src/linkedlist/LL.i: src/linkedlist/LL.cpp.i
+
+.PHONY : src/linkedlist/LL.i
+
+# target to preprocess a source file
+src/linkedlist/LL.cpp.i:
+	$(MAKE) -f CMakeFiles/DataStructurePractice.dir/build.make CMakeFiles/DataStructurePractice.dir/src/linkedlist/LL.cpp.i
+.PHONY : src/linkedlist/LL.cpp.i
+
+src/linkedlist/LL.s: src/linkedlist/LL.cpp.s
+
+.PHONY : src/linkedlist/LL.s
+
+# target to generate assembly for a file
+src/linkedlist/LL.cpp.s:
+	$(MAKE) -f CMakeFiles/DataStructurePractice.dir/build.make CMakeFiles/DataStructurePractice.dir/src/linkedlist/LL.cpp.s
+.PHONY : src/linkedlist/LL.cpp.s
+
+src/queues/que.o: src/queues/que.cpp.o
+
+.PHONY : src/queues/que.o
+
+# target to build an object file
+src/queues/que.cpp.o:
+	$(MAKE) -f CMakeFiles/DataStructurePractice.dir/build.make CMakeFiles/DataStructurePractice.dir/src/queues/que.cpp.o
+.PHONY : src/queues/que.cpp.o
+
+src/queues/que.i: src/queues/que.cpp.i
+
+.PHONY : src/queues/que.i
+
+# target to preprocess a source file
+src/queues/que.cpp.i:
+	$(MAKE) -f CMakeFiles/DataStructurePractice.dir/build.make CMakeFiles/DataStructurePractice.dir/src/queues/que.cpp.i
+.PHONY : src/queues/que.cpp.i
+
+src/queues/que.s: src/queues/que.cpp.s
+
+.PHONY : src/queues/que.s
+
+# target to generate assembly for a file
+src/queues/que.cpp.s:
+	$(MAKE) -f CMakeFiles/DataStructurePractice.dir/build.make CMakeFiles/DataStructurePractice.dir/src/queues/que.cpp.s
+.PHONY : src/queues/que.cpp.s
+
+src/trees/tree.o: src/trees/tree.cpp.o
+
+.PHONY : src/trees/tree.o
+
+# target to build an object file
+src/trees/tree.cpp.o:
+	$(MAKE) -f CMakeFiles/DataStructurePractice.dir/build.make CMakeFiles/DataStructurePractice.dir/src/trees/tree.cpp.o
+.PHONY : src/trees/tree.cpp.o
+
+src/trees/tree.i: src/trees/tree.cpp.i
+
+.PHONY : src/trees/tree.i
+
+# target to preprocess a source file
+src/trees/tree.cpp.i:
+	$(MAKE) -f CMakeFiles/DataStructurePractice.dir/build.make CMakeFiles/DataStructurePractice.dir/src/trees/tree.cpp.i
+.PHONY : src/trees/tree.cpp.i
+
+src/trees/tree.s: src/trees/tree.cpp.s
+
+.PHONY : src/trees/tree.s
+
+# target to generate assembly for a file
+src/trees/tree.cpp.s:
+	$(MAKE) -f CMakeFiles/DataStructurePractice.dir/build.make CMakeFiles/DataStructurePractice.dir/src/trees/tree.cpp.s
+.PHONY : src/trees/tree.cpp.s
 
 # Help Target
 help:
@@ -189,9 +297,21 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/array.o"
-	@echo "... src/array.i"
-	@echo "... src/array.s"
+	@echo "... src/array/onedarray.o"
+	@echo "... src/array/onedarray.i"
+	@echo "... src/array/onedarray.s"
+	@echo "... src/hashtables/hashproblems.o"
+	@echo "... src/hashtables/hashproblems.i"
+	@echo "... src/hashtables/hashproblems.s"
+	@echo "... src/linkedlist/LL.o"
+	@echo "... src/linkedlist/LL.i"
+	@echo "... src/linkedlist/LL.s"
+	@echo "... src/queues/que.o"
+	@echo "... src/queues/que.i"
+	@echo "... src/queues/que.s"
+	@echo "... src/trees/tree.o"
+	@echo "... src/trees/tree.i"
+	@echo "... src/trees/tree.s"
 .PHONY : help
 
 

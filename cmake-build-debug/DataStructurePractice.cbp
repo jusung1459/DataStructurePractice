@@ -85,10 +85,34 @@
 		<Unit filename="/Users/jusunglee/projects/DataStructurePractice/main.cpp">
 			<Option target="DataStructurePractice"/>
 		</Unit>
-		<Unit filename="/Users/jusunglee/projects/DataStructurePractice/src/array.cpp">
+		<Unit filename="/Users/jusunglee/projects/DataStructurePractice/src/array/onedarray.cpp">
 			<Option target="DataStructurePractice"/>
 		</Unit>
-		<Unit filename="/Users/jusunglee/projects/DataStructurePractice/src/array.h">
+		<Unit filename="/Users/jusunglee/projects/DataStructurePractice/src/array/onedarray.h">
+			<Option target="DataStructurePractice"/>
+		</Unit>
+		<Unit filename="/Users/jusunglee/projects/DataStructurePractice/src/hashtables/hashproblems.cpp">
+			<Option target="DataStructurePractice"/>
+		</Unit>
+		<Unit filename="/Users/jusunglee/projects/DataStructurePractice/src/hashtables/hashproblems.h">
+			<Option target="DataStructurePractice"/>
+		</Unit>
+		<Unit filename="/Users/jusunglee/projects/DataStructurePractice/src/linkedlist/LL.cpp">
+			<Option target="DataStructurePractice"/>
+		</Unit>
+		<Unit filename="/Users/jusunglee/projects/DataStructurePractice/src/linkedlist/LL.h">
+			<Option target="DataStructurePractice"/>
+		</Unit>
+		<Unit filename="/Users/jusunglee/projects/DataStructurePractice/src/queues/que.cpp">
+			<Option target="DataStructurePractice"/>
+		</Unit>
+		<Unit filename="/Users/jusunglee/projects/DataStructurePractice/src/queues/que.h">
+			<Option target="DataStructurePractice"/>
+		</Unit>
+		<Unit filename="/Users/jusunglee/projects/DataStructurePractice/src/trees/tree.cpp">
+			<Option target="DataStructurePractice"/>
+		</Unit>
+		<Unit filename="/Users/jusunglee/projects/DataStructurePractice/src/trees/tree.h">
 			<Option target="DataStructurePractice"/>
 		</Unit>
 		<Unit filename="/Users/jusunglee/projects/DataStructurePractice/CMakeLists.txt">

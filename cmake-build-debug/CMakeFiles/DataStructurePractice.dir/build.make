@@ -81,43 +81,147 @@ CMakeFiles/DataStructurePractice.dir/main.cpp.o.provides: CMakeFiles/DataStructu
 CMakeFiles/DataStructurePractice.dir/main.cpp.o.provides.build: CMakeFiles/DataStructurePractice.dir/main.cpp.o
 
 
-CMakeFiles/DataStructurePractice.dir/src/array.cpp.o: CMakeFiles/DataStructurePractice.dir/flags.make
-CMakeFiles/DataStructurePractice.dir/src/array.cpp.o: ../src/array.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jusunglee/projects/DataStructurePractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DataStructurePractice.dir/src/array.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DataStructurePractice.dir/src/array.cpp.o -c /Users/jusunglee/projects/DataStructurePractice/src/array.cpp
+CMakeFiles/DataStructurePractice.dir/src/array/onedarray.cpp.o: CMakeFiles/DataStructurePractice.dir/flags.make
+CMakeFiles/DataStructurePractice.dir/src/array/onedarray.cpp.o: ../src/array/onedarray.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jusunglee/projects/DataStructurePractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DataStructurePractice.dir/src/array/onedarray.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DataStructurePractice.dir/src/array/onedarray.cpp.o -c /Users/jusunglee/projects/DataStructurePractice/src/array/onedarray.cpp
 
-CMakeFiles/DataStructurePractice.dir/src/array.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructurePractice.dir/src/array.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jusunglee/projects/DataStructurePractice/src/array.cpp > CMakeFiles/DataStructurePractice.dir/src/array.cpp.i
+CMakeFiles/DataStructurePractice.dir/src/array/onedarray.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructurePractice.dir/src/array/onedarray.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jusunglee/projects/DataStructurePractice/src/array/onedarray.cpp > CMakeFiles/DataStructurePractice.dir/src/array/onedarray.cpp.i
 
-CMakeFiles/DataStructurePractice.dir/src/array.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructurePractice.dir/src/array.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jusunglee/projects/DataStructurePractice/src/array.cpp -o CMakeFiles/DataStructurePractice.dir/src/array.cpp.s
+CMakeFiles/DataStructurePractice.dir/src/array/onedarray.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructurePractice.dir/src/array/onedarray.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jusunglee/projects/DataStructurePractice/src/array/onedarray.cpp -o CMakeFiles/DataStructurePractice.dir/src/array/onedarray.cpp.s
 
-CMakeFiles/DataStructurePractice.dir/src/array.cpp.o.requires:
+CMakeFiles/DataStructurePractice.dir/src/array/onedarray.cpp.o.requires:
 
-.PHONY : CMakeFiles/DataStructurePractice.dir/src/array.cpp.o.requires
+.PHONY : CMakeFiles/DataStructurePractice.dir/src/array/onedarray.cpp.o.requires
 
-CMakeFiles/DataStructurePractice.dir/src/array.cpp.o.provides: CMakeFiles/DataStructurePractice.dir/src/array.cpp.o.requires
-	$(MAKE) -f CMakeFiles/DataStructurePractice.dir/build.make CMakeFiles/DataStructurePractice.dir/src/array.cpp.o.provides.build
-.PHONY : CMakeFiles/DataStructurePractice.dir/src/array.cpp.o.provides
+CMakeFiles/DataStructurePractice.dir/src/array/onedarray.cpp.o.provides: CMakeFiles/DataStructurePractice.dir/src/array/onedarray.cpp.o.requires
+	$(MAKE) -f CMakeFiles/DataStructurePractice.dir/build.make CMakeFiles/DataStructurePractice.dir/src/array/onedarray.cpp.o.provides.build
+.PHONY : CMakeFiles/DataStructurePractice.dir/src/array/onedarray.cpp.o.provides
 
-CMakeFiles/DataStructurePractice.dir/src/array.cpp.o.provides.build: CMakeFiles/DataStructurePractice.dir/src/array.cpp.o
+CMakeFiles/DataStructurePractice.dir/src/array/onedarray.cpp.o.provides.build: CMakeFiles/DataStructurePractice.dir/src/array/onedarray.cpp.o
+
+
+CMakeFiles/DataStructurePractice.dir/src/hashtables/hashproblems.cpp.o: CMakeFiles/DataStructurePractice.dir/flags.make
+CMakeFiles/DataStructurePractice.dir/src/hashtables/hashproblems.cpp.o: ../src/hashtables/hashproblems.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jusunglee/projects/DataStructurePractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DataStructurePractice.dir/src/hashtables/hashproblems.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DataStructurePractice.dir/src/hashtables/hashproblems.cpp.o -c /Users/jusunglee/projects/DataStructurePractice/src/hashtables/hashproblems.cpp
+
+CMakeFiles/DataStructurePractice.dir/src/hashtables/hashproblems.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructurePractice.dir/src/hashtables/hashproblems.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jusunglee/projects/DataStructurePractice/src/hashtables/hashproblems.cpp > CMakeFiles/DataStructurePractice.dir/src/hashtables/hashproblems.cpp.i
+
+CMakeFiles/DataStructurePractice.dir/src/hashtables/hashproblems.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructurePractice.dir/src/hashtables/hashproblems.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jusunglee/projects/DataStructurePractice/src/hashtables/hashproblems.cpp -o CMakeFiles/DataStructurePractice.dir/src/hashtables/hashproblems.cpp.s
+
+CMakeFiles/DataStructurePractice.dir/src/hashtables/hashproblems.cpp.o.requires:
+
+.PHONY : CMakeFiles/DataStructurePractice.dir/src/hashtables/hashproblems.cpp.o.requires
+
+CMakeFiles/DataStructurePractice.dir/src/hashtables/hashproblems.cpp.o.provides: CMakeFiles/DataStructurePractice.dir/src/hashtables/hashproblems.cpp.o.requires
+	$(MAKE) -f CMakeFiles/DataStructurePractice.dir/build.make CMakeFiles/DataStructurePractice.dir/src/hashtables/hashproblems.cpp.o.provides.build
+.PHONY : CMakeFiles/DataStructurePractice.dir/src/hashtables/hashproblems.cpp.o.provides
+
+CMakeFiles/DataStructurePractice.dir/src/hashtables/hashproblems.cpp.o.provides.build: CMakeFiles/DataStructurePractice.dir/src/hashtables/hashproblems.cpp.o
+
+
+CMakeFiles/DataStructurePractice.dir/src/linkedlist/LL.cpp.o: CMakeFiles/DataStructurePractice.dir/flags.make
+CMakeFiles/DataStructurePractice.dir/src/linkedlist/LL.cpp.o: ../src/linkedlist/LL.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jusunglee/projects/DataStructurePractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DataStructurePractice.dir/src/linkedlist/LL.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DataStructurePractice.dir/src/linkedlist/LL.cpp.o -c /Users/jusunglee/projects/DataStructurePractice/src/linkedlist/LL.cpp
+
+CMakeFiles/DataStructurePractice.dir/src/linkedlist/LL.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructurePractice.dir/src/linkedlist/LL.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jusunglee/projects/DataStructurePractice/src/linkedlist/LL.cpp > CMakeFiles/DataStructurePractice.dir/src/linkedlist/LL.cpp.i
+
+CMakeFiles/DataStructurePractice.dir/src/linkedlist/LL.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructurePractice.dir/src/linkedlist/LL.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jusunglee/projects/DataStructurePractice/src/linkedlist/LL.cpp -o CMakeFiles/DataStructurePractice.dir/src/linkedlist/LL.cpp.s
+
+CMakeFiles/DataStructurePractice.dir/src/linkedlist/LL.cpp.o.requires:
+
+.PHONY : CMakeFiles/DataStructurePractice.dir/src/linkedlist/LL.cpp.o.requires
+
+CMakeFiles/DataStructurePractice.dir/src/linkedlist/LL.cpp.o.provides: CMakeFiles/DataStructurePractice.dir/src/linkedlist/LL.cpp.o.requires
+	$(MAKE) -f CMakeFiles/DataStructurePractice.dir/build.make CMakeFiles/DataStructurePractice.dir/src/linkedlist/LL.cpp.o.provides.build
+.PHONY : CMakeFiles/DataStructurePractice.dir/src/linkedlist/LL.cpp.o.provides
+
+CMakeFiles/DataStructurePractice.dir/src/linkedlist/LL.cpp.o.provides.build: CMakeFiles/DataStructurePractice.dir/src/linkedlist/LL.cpp.o
+
+
+CMakeFiles/DataStructurePractice.dir/src/queues/que.cpp.o: CMakeFiles/DataStructurePractice.dir/flags.make
+CMakeFiles/DataStructurePractice.dir/src/queues/que.cpp.o: ../src/queues/que.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jusunglee/projects/DataStructurePractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DataStructurePractice.dir/src/queues/que.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DataStructurePractice.dir/src/queues/que.cpp.o -c /Users/jusunglee/projects/DataStructurePractice/src/queues/que.cpp
+
+CMakeFiles/DataStructurePractice.dir/src/queues/que.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructurePractice.dir/src/queues/que.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jusunglee/projects/DataStructurePractice/src/queues/que.cpp > CMakeFiles/DataStructurePractice.dir/src/queues/que.cpp.i
+
+CMakeFiles/DataStructurePractice.dir/src/queues/que.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructurePractice.dir/src/queues/que.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jusunglee/projects/DataStructurePractice/src/queues/que.cpp -o CMakeFiles/DataStructurePractice.dir/src/queues/que.cpp.s
+
+CMakeFiles/DataStructurePractice.dir/src/queues/que.cpp.o.requires:
+
+.PHONY : CMakeFiles/DataStructurePractice.dir/src/queues/que.cpp.o.requires
+
+CMakeFiles/DataStructurePractice.dir/src/queues/que.cpp.o.provides: CMakeFiles/DataStructurePractice.dir/src/queues/que.cpp.o.requires
+	$(MAKE) -f CMakeFiles/DataStructurePractice.dir/build.make CMakeFiles/DataStructurePractice.dir/src/queues/que.cpp.o.provides.build
+.PHONY : CMakeFiles/DataStructurePractice.dir/src/queues/que.cpp.o.provides
+
+CMakeFiles/DataStructurePractice.dir/src/queues/que.cpp.o.provides.build: CMakeFiles/DataStructurePractice.dir/src/queues/que.cpp.o
+
+
+CMakeFiles/DataStructurePractice.dir/src/trees/tree.cpp.o: CMakeFiles/DataStructurePractice.dir/flags.make
+CMakeFiles/DataStructurePractice.dir/src/trees/tree.cpp.o: ../src/trees/tree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jusunglee/projects/DataStructurePractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/DataStructurePractice.dir/src/trees/tree.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DataStructurePractice.dir/src/trees/tree.cpp.o -c /Users/jusunglee/projects/DataStructurePractice/src/trees/tree.cpp
+
+CMakeFiles/DataStructurePractice.dir/src/trees/tree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructurePractice.dir/src/trees/tree.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jusunglee/projects/DataStructurePractice/src/trees/tree.cpp > CMakeFiles/DataStructurePractice.dir/src/trees/tree.cpp.i
+
+CMakeFiles/DataStructurePractice.dir/src/trees/tree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructurePractice.dir/src/trees/tree.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jusunglee/projects/DataStructurePractice/src/trees/tree.cpp -o CMakeFiles/DataStructurePractice.dir/src/trees/tree.cpp.s
+
+CMakeFiles/DataStructurePractice.dir/src/trees/tree.cpp.o.requires:
+
+.PHONY : CMakeFiles/DataStructurePractice.dir/src/trees/tree.cpp.o.requires
+
+CMakeFiles/DataStructurePractice.dir/src/trees/tree.cpp.o.provides: CMakeFiles/DataStructurePractice.dir/src/trees/tree.cpp.o.requires
+	$(MAKE) -f CMakeFiles/DataStructurePractice.dir/build.make CMakeFiles/DataStructurePractice.dir/src/trees/tree.cpp.o.provides.build
+.PHONY : CMakeFiles/DataStructurePractice.dir/src/trees/tree.cpp.o.provides
+
+CMakeFiles/DataStructurePractice.dir/src/trees/tree.cpp.o.provides.build: CMakeFiles/DataStructurePractice.dir/src/trees/tree.cpp.o
 
 
 # Object files for target DataStructurePractice
 DataStructurePractice_OBJECTS = \
 "CMakeFiles/DataStructurePractice.dir/main.cpp.o" \
-"CMakeFiles/DataStructurePractice.dir/src/array.cpp.o"
+"CMakeFiles/DataStructurePractice.dir/src/array/onedarray.cpp.o" \
+"CMakeFiles/DataStructurePractice.dir/src/hashtables/hashproblems.cpp.o" \
+"CMakeFiles/DataStructurePractice.dir/src/linkedlist/LL.cpp.o" \
+"CMakeFiles/DataStructurePractice.dir/src/queues/que.cpp.o" \
+"CMakeFiles/DataStructurePractice.dir/src/trees/tree.cpp.o"
 
 # External object files for target DataStructurePractice
 DataStructurePractice_EXTERNAL_OBJECTS =
 
 DataStructurePractice: CMakeFiles/DataStructurePractice.dir/main.cpp.o
-DataStructurePractice: CMakeFiles/DataStructurePractice.dir/src/array.cpp.o
+DataStructurePractice: CMakeFiles/DataStructurePractice.dir/src/array/onedarray.cpp.o
+DataStructurePractice: CMakeFiles/DataStructurePractice.dir/src/hashtables/hashproblems.cpp.o
+DataStructurePractice: CMakeFiles/DataStructurePractice.dir/src/linkedlist/LL.cpp.o
+DataStructurePractice: CMakeFiles/DataStructurePractice.dir/src/queues/que.cpp.o
+DataStructurePractice: CMakeFiles/DataStructurePractice.dir/src/trees/tree.cpp.o
 DataStructurePractice: CMakeFiles/DataStructurePractice.dir/build.make
 DataStructurePractice: CMakeFiles/DataStructurePractice.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jusunglee/projects/DataStructurePractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable DataStructurePractice"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jusunglee/projects/DataStructurePractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable DataStructurePractice"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DataStructurePractice.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -126,7 +230,11 @@ CMakeFiles/DataStructurePractice.dir/build: DataStructurePractice
 .PHONY : CMakeFiles/DataStructurePractice.dir/build
 
 CMakeFiles/DataStructurePractice.dir/requires: CMakeFiles/DataStructurePractice.dir/main.cpp.o.requires
-CMakeFiles/DataStructurePractice.dir/requires: CMakeFiles/DataStructurePractice.dir/src/array.cpp.o.requires
+CMakeFiles/DataStructurePractice.dir/requires: CMakeFiles/DataStructurePractice.dir/src/array/onedarray.cpp.o.requires
+CMakeFiles/DataStructurePractice.dir/requires: CMakeFiles/DataStructurePractice.dir/src/hashtables/hashproblems.cpp.o.requires
+CMakeFiles/DataStructurePractice.dir/requires: CMakeFiles/DataStructurePractice.dir/src/linkedlist/LL.cpp.o.requires
+CMakeFiles/DataStructurePractice.dir/requires: CMakeFiles/DataStructurePractice.dir/src/queues/que.cpp.o.requires
+CMakeFiles/DataStructurePractice.dir/requires: CMakeFiles/DataStructurePractice.dir/src/trees/tree.cpp.o.requires
 
 .PHONY : CMakeFiles/DataStructurePractice.dir/requires
 

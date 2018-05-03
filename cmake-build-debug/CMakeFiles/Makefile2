@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /Users/jusunglee/projects/DataStructurePractice/cmake-build-d
 CMakeFiles/DataStructurePractice.dir/all:
 	$(MAKE) -f CMakeFiles/DataStructurePractice.dir/build.make CMakeFiles/DataStructurePractice.dir/depend
 	$(MAKE) -f CMakeFiles/DataStructurePractice.dir/build.make CMakeFiles/DataStructurePractice.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jusunglee/projects/DataStructurePractice/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target DataStructurePractice"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jusunglee/projects/DataStructurePractice/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target DataStructurePractice"
 .PHONY : CMakeFiles/DataStructurePractice.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/DataStructurePractice.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/DataStructurePractice.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jusunglee/projects/DataStructurePractice/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jusunglee/projects/DataStructurePractice/cmake-build-debug/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/DataStructurePractice.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jusunglee/projects/DataStructurePractice/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/DataStructurePractice.dir/rule

@@ -1,0 +1,14 @@
+//
+// Created by jusung lee on 2018-05-02.
+//
+
+#ifndef DATASTRUCTUREPRACTICE_HASHPROBLEMS_H
+#define DATASTRUCTUREPRACTICE_HASHPROBLEMS_H
+
+
+class hashproblems {
+
+};
+
+
+#endif //DATASTRUCTUREPRACTICE_HASHPROBLEMS_H
