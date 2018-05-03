@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/DataStructurePractice.dir/build.make CMakeFiles/DataStructurePractice.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/array.o: src/array.cpp.o
+
+.PHONY : src/array.o
+
+# target to build an object file
+src/array.cpp.o:
+	$(MAKE) -f CMakeFiles/DataStructurePractice.dir/build.make CMakeFiles/DataStructurePractice.dir/src/array.cpp.o
+.PHONY : src/array.cpp.o
+
+src/array.i: src/array.cpp.i
+
+.PHONY : src/array.i
+
+# target to preprocess a source file
+src/array.cpp.i:
+	$(MAKE) -f CMakeFiles/DataStructurePractice.dir/build.make CMakeFiles/DataStructurePractice.dir/src/array.cpp.i
+.PHONY : src/array.cpp.i
+
+src/array.s: src/array.cpp.s
+
+.PHONY : src/array.s
+
+# target to generate assembly for a file
+src/array.cpp.s:
+	$(MAKE) -f CMakeFiles/DataStructurePractice.dir/build.make CMakeFiles/DataStructurePractice.dir/src/array.cpp.s
+.PHONY : src/array.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/array.o"
+	@echo "... src/array.i"
+	@echo "... src/array.s"
 .PHONY : help
 
 

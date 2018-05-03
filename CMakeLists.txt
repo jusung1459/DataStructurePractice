@@ -3,4 +3,4 @@ project(DataStructurePractice)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(DataStructurePractice main.cpp)
+add_executable(DataStructurePractice main.cpp src/array/onedarray.cpp src/array/onedarray.h)

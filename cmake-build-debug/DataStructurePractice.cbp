@@ -85,6 +85,12 @@
 		<Unit filename="/Users/jusunglee/projects/DataStructurePractice/main.cpp">
 			<Option target="DataStructurePractice"/>
 		</Unit>
+		<Unit filename="/Users/jusunglee/projects/DataStructurePractice/src/array.cpp">
+			<Option target="DataStructurePractice"/>
+		</Unit>
+		<Unit filename="/Users/jusunglee/projects/DataStructurePractice/src/array.h">
+			<Option target="DataStructurePractice"/>
+		</Unit>
 		<Unit filename="/Users/jusunglee/projects/DataStructurePractice/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/DataStructurePractice.dir/main.cpp.o  -o DataStructurePractice 
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/DataStructurePractice.dir/main.cpp.o CMakeFiles/DataStructurePractice.dir/src/array.cpp.o  -o DataStructurePractice 

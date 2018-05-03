@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/DataStructurePractice.dir/main.cpp.o"
+  "CMakeFiles/DataStructurePractice.dir/src/array.cpp.o"
   "DataStructurePractice.pdb"
   "DataStructurePractice"
 )
