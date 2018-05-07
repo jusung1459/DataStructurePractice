@@ -3,6 +3,7 @@
 //
 #include <iostream>
 #include <cstdlib>
+#include <cmath>
 
 using namespace std;
 
@@ -35,4 +36,23 @@ int microArray() {
     }
     return 0;
 
+}
+
+
+//Unfortunately, Conan is in a real danger! Conan discovered who
+// is the killer after searching for the evidence in a dangerous cave.
+// Now, he is standing in front of a bomb that about to explode.
+// The bomb will explode after m seconds.
+int willHeDie() {
+    int t,n,m;
+    int p,q;
+    cin >> t;
+
+    for(int i=0; i<t; i++) {
+        cin >> n >> m;
+
+        p = n;
+        q = pow(2,3);
+        cout << (p % (int)std::pow(10,9)+7)/q;
+    }
 }
