@@ -7,7 +7,6 @@
 
 using namespace std;
 
-#include "onedarray.h"
 
 int microArray() {
     int t,n,k;
