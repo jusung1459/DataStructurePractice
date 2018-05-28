@@ -1,3 +1,4 @@
+//classes should be in a header file :p
 class Node {
     private:
         int data;
