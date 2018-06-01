@@ -55,3 +55,4 @@ int willHeDie() {
         cout << (p % (int)std::pow(10,9)+7)/q;
     }
 }
+//sdfasdfa
