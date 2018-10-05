@@ -1,19 +1,27 @@
 #include <iostream>
 #include <utility>
 
-int binaryFib(int num) {
-    if(num <= 1) {
+int binaryFib(int num)
+{
+    if (num <= 1)
+    {
         return num;
-    } else {
-        return binaryFib(num-1) + binaryFib(num-2);
+    }
+    else
+    {
+        return binaryFib(num - 1) + binaryFib(num - 2);
     }
 }
 
-std::pair<int,int> linearFibonicci(int k) {
-    if(k==1) {
-        return std::make_pair(k,0);
-    } else {
-        std::pair<int,int> p1 = linearFibonicci(k-1);
+std::pair<int, int> linearFibonicci(int k)
+{
+    if (k == 1)
+    {
+        return std::make_pair(k, 0);
+    }
+    else
+    {
+        std::pair<int, int> p1 = linearFibonicci(k - 1);
         return std::make_pair(p1.first + p1.second, p1.first);
         //p1(i+j,i);
     }
@@ -28,10 +36,11 @@ std::pair<int,int> linearFibonicci(int k) {
     return 0;
 }*/
 
-int main(void) {
+int main(void)
+{
     int num;
     std::cin >> num;
-    std::pair<int,int> fibnum;
+    std::pair<int, int> fibnum;
     fibnum = linearFibonicci(num);
     std::cout << fibnum.first;
     return 0;
