@@ -6,7 +6,7 @@ int main()
 {
     int x, y;
     cin >> x >> y;
-    int board[5000];
+    int board[50000];
     for (int i = 1; i < x; i++)
     {
         cin >> board[i];
