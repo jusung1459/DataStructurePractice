@@ -7,19 +7,19 @@ int main() {
     // people, days, number of friends to have
     int n, m, k;
     cin >> n >> m >> k;
-    int people[m][n];
+    int people[n][m];
 
     for(int i=0; i<m; i++) {
         int x, y;
         cin >> x >> y;
-        people[i][x] = people[i-1][x] + 1;
-        people[i][y] = people[i-1][y] + 1;
+        people[x][i] = people[x][i-1] + 1;
+        people[y][i] = people[y][i-1] + 1;
     }
 
     for(int i=0; i<m; i++) {
         int num = 0;
         for(int j=0; j<m; j++) {
-            if (people[i][j] >= k) {
+            if (people[j][i] >= k) {
                 num++;
             }
             cout << num;
