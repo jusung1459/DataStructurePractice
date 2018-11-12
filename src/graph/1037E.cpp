@@ -3,23 +3,29 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
+int main() {
+    // people, days, number of friends to have
     int n, m, k;
     cin >> n >> m >> k;
-    int graph[n][n];
+    int people[m][n];
 
-    //none are friends
-    for (int i = 0; i < n; i++)
-    {
-        for (int j = 0; i < n; i++)
-        {
-            graph[i][k] = 0;
+    for(int i=0; i<m; i++) {
+        int x, y;
+        cin >> x >> y;
+        people[i][x] = people[i-1][x] + 1;
+        people[i][y] = people[i-1][y] + 1;
+    }
+
+    for(int i=0; i<m; i++) {
+        int num = 0;
+        for(int j=0; j<m; j++) {
+            if (people[i][j] >= k) {
+                num++;
+            }
+            cout << num;
         }
+        cout << num;
     }
-
-    for (int i = 1; i < n; i++)
-    {
-    }
+    
     return 0;
 }
