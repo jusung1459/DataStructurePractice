@@ -5,17 +5,27 @@ using namespace std;
 int main() {
     int n,m;
     cin >> n, m;
-    char table[115][115];
+    //char table[115][115];
 
-    for(int i=0; i<n; i++) {
-        for(int j=0; j>m; j++) {
+    bool first = false;
+    int fx, fy, lx, ly, mx, my;
+
+    for(int i=1; i<=n; i++) {
+        for(int j=1; j>=m; j++) {
             char color;
             cin >> color;
-            table[i][j] = color;
-            if(color == "B") {
-                
+            //table[i][j] = color;
+            if(first = false && color == "B") {
+                first = true;
+                fx = i;
+                fy = j;
+            } else if(color = "B") {
+                lx = i;
+                ly = j;
             }
         }
     }
+
+    //mx = fx + (lx - fx);
     return 0;
 }
