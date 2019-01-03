@@ -1,5 +1,6 @@
 //http://codeforces.com/problemset/problem/1028/A
 #include <iostream>
+#include <string.h>
 using namespace std;
 
 int main() {
@@ -15,17 +16,19 @@ int main() {
             char color;
             cin >> color;
             //table[i][j] = color;
-            if(first = false && color == "B") {
+            if(first = false && color == 'B') {
                 first = true;
                 fx = i;
                 fy = j;
-            } else if(color = "B") {
+            } else if(color == 'B') {
                 lx = i;
                 ly = j;
             }
         }
     }
 
-    //mx = fx + (lx - fx);
+    mx = (fx + lx) / 2;
+    my = (fy + ly) / 2;
+    cout << mx + ' ' + my;
     return 0;
 }
