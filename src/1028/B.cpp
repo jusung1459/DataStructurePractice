@@ -1,4 +1,4 @@
-//http://codeforces.com/problemset/problem/1028/A
+//http://codeforces.com/problemset/problem/1028/B
 #include <iostream>
 #include <string.h>
 using namespace std;
